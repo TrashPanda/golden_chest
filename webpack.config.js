@@ -1,8 +1,8 @@
 module.exports = {
   cache: true,
-  entry: './src/index',
+  entry: './assets/index',
   output: {
-    filename: 'browser-bundle.js'
+    filename: './public/browser-bundle.js'
   },
   devtool: 'source-map',
   module: {
